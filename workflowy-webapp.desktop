@@ -1,9 +1,9 @@
 #!/usr/bin/env xdg-open
 [Desktop Entry]
-Name=WorkFlowy
+Name=WorkFlowy - Organize your brain.
 GenericName=WorkFlowy
 Comment=WorkFlowy desktop webapp
-Exec=/opt/google/chrome/google-chrome --app=https://workflowy.com/b/
+Exec=/opt/google/chrome/google-chrome --app=https://workflowy.com/
 Terminal=false
 Type=Application
 StartupNotify=true
