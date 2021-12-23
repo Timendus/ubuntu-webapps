@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=WorkFlowy
+GenericName=WorkFlowy
+Comment=WorkFlowy desktop webapp
+Exec=/opt/google/chrome/google-chrome --app=https://workflowy.com/b/
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=/home/tim/Workspace/ubuntu-webapps/WorkFlowy.png
+Categories=Network;Application;
+Keywords=WorkFlowy;todo;list;webapp;
+X-Ubuntu-Gettext-Domain=WorkFlowy
+StartupWMClass=workflowy.com
