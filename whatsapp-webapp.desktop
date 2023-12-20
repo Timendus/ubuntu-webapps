@@ -1,15 +1,12 @@
-#!/usr/bin/env xdg-open
 [Desktop Entry]
-Name=WhatsApp
-GenericName=WhatsApp
-Comment=WhatsApp desktop webapp
-Exec=/opt/google/chrome/google-chrome --app=https://web.whatsapp.com/
-Terminal=false
 Type=Application
+Name=WhatsApp
+GenericName=Messenger
+Comment=WhatsApp Web in a wrapper
+Icon=/home/tim/Pictures/WhatsApp.png
+Exec=/usr/bin/chromium-browser --app=https://web.whatsapp.com/
+Terminal=false
+StartupWMClass=chrome-web.whatsapp.com__-Default
+Categories=Network;InstantMessaging;Chat;
 StartupNotify=true
-MimeType=text/plain;
-Icon=/home/tim/Workspace/ubuntu-webapps/WhatsApp.png
-Categories=Network;Application;
-Keywords=WhatsApp;chat;webapp;
-X-Ubuntu-Gettext-Domain=WhatsApp
-StartupWMClass=web.whatsapp.com
+SingleMainWindow=true
